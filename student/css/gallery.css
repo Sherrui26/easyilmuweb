@@ -1,0 +1,33 @@
+
+#content-wrapper
+{
+	clear: both;
+	width:900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#content { float: left; padding: 20px 0; }
+
+#content p
+{
+	float: left;
+	margin: 10px 25px;
+}
+
+.drop-shadow
+{
+    transition: transform .2s;
+	float: left;
+	position: relative;
+	margin: 10px 3px 0 10px !important;
+	margin: 10px 3px 0 5px; 
+	background: transparent url(img/book/effect/drop_shadow.png) bottom right no-repeat !important;
+	background: transparent url(images/drop_shadow_ie.gif) bottom right no-repeat;
+}
+
+.drop-shadow:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }

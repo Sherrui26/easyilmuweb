@@ -1,0 +1,18 @@
+#site-footer {
+  height: 80px;
+  width: 100.5%;
+  background: rgb(107, 107, 107);
+  z-index:-1;
+  position:relative;
+}
+
+#footer1 {
+  margin-left: 2%;
+  float: left;
+
+}
+
+#footer2 {
+  margin-right: 2%;
+  float: right;
+}
